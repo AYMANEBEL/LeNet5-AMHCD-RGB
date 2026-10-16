@@ -1,0 +1,8 @@
+{
+  "best_optimizer": "Adam",
+  "test_loss": 0.053571701802388585,
+  "test_accuracy": 0.9844599844599845,
+  "macro_precision": 0.984683284999577,
+  "macro_recall": 0.9844599844599845,
+  "macro_f1": 0.9844446142725781
+}

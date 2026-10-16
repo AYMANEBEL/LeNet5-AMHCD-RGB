@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "AMHCD",
+    "image_mode": "RGB",
+    "original_size": "64x64",
+    "model_input_size": "32x32x3",
+    "unique_images": 25740,
+    "classes": 33,
+    "train_size": 20592,
+    "validation_size": 2574,
+    "test_size": 2574
+  },
+  "architecture": {
+    "name": "LeNet-5 RGB",
+    "input": "32x32x3",
+    "conv1": "6 filtres 5x5",
+    "pool1": "Average Pooling 2x2",
+    "conv2": "16 filtres 5x5",
+    "pool2": "Average Pooling 2x2",
+    "fc1": 120,
+    "fc2": 84,
+    "output": 33,
+    "parameters": 63961
+  },
+  "best_model": {
+    "best_optimizer": "Adam",
+    "test_loss": 0.053571701802388585,
+    "test_accuracy": 0.9844599844599845,
+    "macro_precision": 0.984683284999577,
+    "macro_recall": 0.9844599844599845,
+    "macro_f1": 0.9844446142725781
+  }
+}
